@@ -198,6 +198,6 @@ while True:
 		else:
 			print "Failed to upload"
 			GPIO.output(redPin,GPIO.HIGH)
-		time.sleep(1)
+		time.sleep(300)
 		GPIO.output(greenPin,GPIO.LOW)
 		GPIO.output(redPin,GPIO.LOW)
